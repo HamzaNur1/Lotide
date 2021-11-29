@@ -7,5 +7,7 @@ const assertEqual = function(pizza,iceCream) {
 
   }
 };
-assertEqual(1,1);
-module.exports = assertEqual;
+
+const eqObjects = function(pizza1,pizza2) {
+  
+}

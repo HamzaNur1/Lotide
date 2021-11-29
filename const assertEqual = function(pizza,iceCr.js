@@ -7,5 +7,8 @@ const assertEqual = function(pizza,iceCream) {
 
   }
 };
-assertEqual(1,1);
-module.exports = assertEqual;
+
+
+const findkeyByValue = function(lhl,value) {
+  
+}
