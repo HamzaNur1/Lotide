@@ -15,3 +15,4 @@ const assertArraysEqual = function (a1,b2) {
 
   }
 } 
+module.exports = assertArraysEqual

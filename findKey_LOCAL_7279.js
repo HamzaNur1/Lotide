@@ -7,5 +7,13 @@ const assertEqual = function(pizza,iceCream) {
 
   }
 };
+const findKey = function(object, callback) {
+  for (let key in object) {
+    if (callback(object[key])) {
+      return key;
+    }
+  }
+  return 'No Key with this value'
+}
 
-module.exports = assertEqual;
+module.exports = findKey;

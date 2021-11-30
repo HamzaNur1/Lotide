@@ -1,5 +1,5 @@
-const assertEqual = require('./assertEqual');
+const assertEqual = require('../assertEqual');
 
 
-
-module.exports = assertEqual;
+assertEqual('apple','apple')
+assertEqual('apple' , 'orange')
