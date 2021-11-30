@@ -6,5 +6,6 @@ const eqArrays = function (a1, b2) {
   }
   return true;
 };
-console.log(eqArrays([1, 2, 3], [1, 2, 3]));
+
+module.exports = eqArrays
 
